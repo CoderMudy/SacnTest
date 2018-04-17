@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="NewStat">
+      <UniqueIdentifier>{32803e03-0155-4a56-b3d9-d5dbe2be839a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VarCalcSerVice">
+      <UniqueIdentifier>{23395221-fb1e-4fed-8a30-c9621f14e9f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VarCalcSerVice\AdapterTools">
+      <UniqueIdentifier>{15c62934-b663-4ac2-99d5-c82ee43d5ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VarCalcSerVice\Test">
+      <UniqueIdentifier>{905cb264-3d1c-424e-b359-4bf6529a94f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VarCalcSerVice\VarCalc">
+      <UniqueIdentifier>{55e00c89-d107-4c24-b8bd-ff99ce192596}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Business.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CompanyWebsite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputingWarrant.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeDelegate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Fund.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FundDeriveData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Memo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MixTradeDay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyIndicator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ModConfig\MyPmdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ModConfig\MyStateDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ModConfig\MyStyleDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SrvMemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StatRisk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StockWarn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxAlarm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxBond.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxBondStat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxBusiness.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxBusinessStat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxCommonStock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxDelegate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxFundStat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxFutures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxIndex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxIndicator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxIndicator_Sub.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxPreferredStock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxStock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxStock_HK.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TxWarrant.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Warn_Cfg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NewStat\BigDealStatService.cpp">
+      <Filter>NewStat</Filter>
+    </ClCompile>
+    <ClCompile Include="NewStat\StatDataService.cpp">
+      <Filter>NewStat</Filter>
+    </ClCompile>
+    <ClCompile Include="NewStat\StatDataTransfer.cpp">
+      <Filter>NewStat</Filter>
+    </ClCompile>
+    <ClCompile Include="NewStat\StatReqAndRsp.cpp">
+      <Filter>NewStat</Filter>
+    </ClCompile>
+    <ClCompile Include="NewStat\StatXMLDataParser.cpp">
+      <Filter>NewStat</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\BondPriceSeries.cpp">
+      <Filter>VarCalcSerVice</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\CurrencyFundPriceSeries.cpp">
+      <Filter>VarCalcSerVice</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\FileLoadPriceSeries.cpp">
+      <Filter>VarCalcSerVice</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\OPFundPriceSeries.cpp">
+      <Filter>VarCalcSerVice</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\PriceSeriesGenerator.cpp">
+      <Filter>VarCalcSerVice</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\StockPriceSeries.cpp">
+      <Filter>VarCalcSerVice</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\VarCalcConfig.cpp">
+      <Filter>VarCalcSerVice</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\VarCalcService.cpp">
+      <Filter>VarCalcSerVice</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\VarDataProvider.cpp">
+      <Filter>VarCalcSerVice</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\AdapterTools\VARDateTimeAdapter.cpp">
+      <Filter>VarCalcSerVice\AdapterTools</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\AdapterTools\VARTypeChange.cpp">
+      <Filter>VarCalcSerVice\AdapterTools</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\Test\functions.cpp">
+      <Filter>VarCalcSerVice\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\Test\TestLog.cpp">
+      <Filter>VarCalcSerVice\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\Test\VarCalcTestService.cpp">
+      <Filter>VarCalcSerVice\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\VarCalc\VarCalcDataSource.cpp">
+      <Filter>VarCalcSerVice\VarCalc</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\VarCalc\VarCalcMethod.cpp">
+      <Filter>VarCalcSerVice\VarCalc</Filter>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\VarCalc\VarCalcParam.cpp">
+      <Filter>VarCalcSerVice\VarCalc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Business.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\Business.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Business.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CompanyWebsite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputingWarrant.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeDelegate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Fund.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FundDeriveData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Markup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Memo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MixTradeDay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyIndicator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ModConfig\MyPmdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ModConfig\MyStateDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ModConfig\MyStyleDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SrvMemo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StatRisk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StockWarn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TxAlarm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TxBond.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TxBusiness.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TxCommonStock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TxDelegate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TxFutures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TxIndex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TxIndicator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TxPreferredStock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TxStock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TxStock_HK.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TxWarrant.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Warn_Cfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NewStat\BigDealStatService.h">
+      <Filter>NewStat</Filter>
+    </ClInclude>
+    <ClInclude Include="NewStat\StatDataService.h">
+      <Filter>NewStat</Filter>
+    </ClInclude>
+    <ClInclude Include="NewStat\StatDataTransfer.h">
+      <Filter>NewStat</Filter>
+    </ClInclude>
+    <ClInclude Include="NewStat\StatReqAndRsp.h">
+      <Filter>NewStat</Filter>
+    </ClInclude>
+    <ClInclude Include="NewStat\StatXMLDataParser.h">
+      <Filter>NewStat</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\BondPriceSeries.h">
+      <Filter>VarCalcSerVice</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\CurrencyFundPriceSeries.h">
+      <Filter>VarCalcSerVice</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\FileLoadPriceSeries.h">
+      <Filter>VarCalcSerVice</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\OPFundPriceSeries.h">
+      <Filter>VarCalcSerVice</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\PriceSeriesGenerator.h">
+      <Filter>VarCalcSerVice</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\StockPriceSeries.h">
+      <Filter>VarCalcSerVice</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\VarCalcConfig.h">
+      <Filter>VarCalcSerVice</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\VarCalcService.h">
+      <Filter>VarCalcSerVice</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\VarDataProvider.h">
+      <Filter>VarCalcSerVice</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\AdapterTools\VARDateTimeAdapter.h">
+      <Filter>VarCalcSerVice\AdapterTools</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\AdapterTools\VARTypeChange.h">
+      <Filter>VarCalcSerVice\AdapterTools</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\Test\functions.h">
+      <Filter>VarCalcSerVice\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\Test\TestLog.h">
+      <Filter>VarCalcSerVice\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\Test\VarCalcTestService.h">
+      <Filter>VarCalcSerVice\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\VarCalc\VarCalcDataSource.h">
+      <Filter>VarCalcSerVice\VarCalc</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\VarCalc\VarCalcGlobal.h">
+      <Filter>VarCalcSerVice\VarCalc</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\VarCalc\VarCalcMethod.h">
+      <Filter>VarCalcSerVice\VarCalc</Filter>
+    </ClInclude>
+    <ClInclude Include="VarCalcService\VarCalc\VarCalcParam.h">
+      <Filter>VarCalcSerVice\VarCalc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Business.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

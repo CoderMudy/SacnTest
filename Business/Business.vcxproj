@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B78DB235-91C6-4622-B515-91B52091C2D8}</ProjectGuid>
+    <RootNamespace>Business</RootNamespace>
+    <Keyword>MFCDLLProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</EmbedManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</EmbedManifest>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_AFXEXT;BUSINESS_INTERNAL;_ITERATOR_DEBUG_LEVEL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <ModuleDefinitionFile>.\Business.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_AFXEXT;BUSINESS_INTERNAL;_VER_2008;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <ModuleDefinitionFile>.\Business.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Business.cpp" />
+    <ClCompile Include="CompanyWebsite.cpp" />
+    <ClCompile Include="ComputingWarrant.cpp" />
+    <ClCompile Include="ExeDelegate.cpp" />
+    <ClCompile Include="Fund.cpp" />
+    <ClCompile Include="FundDeriveData.cpp" />
+    <ClCompile Include="Markup.cpp" />
+    <ClCompile Include="Memo.cpp" />
+    <ClCompile Include="MixTradeDay.cpp" />
+    <ClCompile Include="MyIndicator.cpp" />
+    <ClCompile Include="..\..\ModConfig\MyPmdlg.cpp" />
+    <ClCompile Include="..\..\ModConfig\MyStateDlg.cpp" />
+    <ClCompile Include="..\..\ModConfig\MyStyleDlg.cpp" />
+    <ClCompile Include="SrvMemo.cpp" />
+    <ClCompile Include="StatRisk.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StockWarn.cpp" />
+    <ClCompile Include="TxAlarm.cpp" />
+    <ClCompile Include="TxBond.cpp" />
+    <ClCompile Include="TxBondStat.cpp" />
+    <ClCompile Include="TxBusiness.cpp" />
+    <ClCompile Include="TxBusinessStat.cpp" />
+    <ClCompile Include="TxCommonStock.cpp" />
+    <ClCompile Include="TxDelegate.cpp" />
+    <ClCompile Include="TxFundStat.cpp" />
+    <ClCompile Include="TxFutures.cpp" />
+    <ClCompile Include="TxIndex.cpp" />
+    <ClCompile Include="TxIndicator.cpp" />
+    <ClCompile Include="TxIndicator_Sub.cpp" />
+    <ClCompile Include="TxPreferredStock.cpp" />
+    <ClCompile Include="TxStock.cpp" />
+    <ClCompile Include="TxStock_HK.cpp" />
+    <ClCompile Include="TxWarrant.cpp" />
+    <ClCompile Include="Warn_Cfg.cpp" />
+    <ClCompile Include="NewStat\BigDealStatService.cpp" />
+    <ClCompile Include="NewStat\StatDataService.cpp" />
+    <ClCompile Include="NewStat\StatDataTransfer.cpp" />
+    <ClCompile Include="NewStat\StatReqAndRsp.cpp" />
+    <ClCompile Include="NewStat\StatXMLDataParser.cpp" />
+    <ClCompile Include="VarCalcService\BondPriceSeries.cpp" />
+    <ClCompile Include="VarCalcService\CurrencyFundPriceSeries.cpp" />
+    <ClCompile Include="VarCalcService\FileLoadPriceSeries.cpp" />
+    <ClCompile Include="VarCalcService\OPFundPriceSeries.cpp" />
+    <ClCompile Include="VarCalcService\PriceSeriesGenerator.cpp" />
+    <ClCompile Include="VarCalcService\StockPriceSeries.cpp" />
+    <ClCompile Include="VarCalcService\VarCalcConfig.cpp" />
+    <ClCompile Include="VarCalcService\VarCalcService.cpp" />
+    <ClCompile Include="VarCalcService\VarDataProvider.cpp" />
+    <ClCompile Include="VarCalcService\AdapterTools\VARDateTimeAdapter.cpp" />
+    <ClCompile Include="VarCalcService\AdapterTools\VARTypeChange.cpp" />
+    <ClCompile Include="VarCalcService\Test\functions.cpp" />
+    <ClCompile Include="VarCalcService\Test\TestLog.cpp" />
+    <ClCompile Include="VarCalcService\Test\VarCalcTestService.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="VarCalcService\VarCalc\VarCalcDataSource.cpp" />
+    <ClCompile Include="VarCalcService\VarCalc\VarCalcMethod.cpp" />
+    <ClCompile Include="VarCalcService\VarCalc\VarCalcParam.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Business.def" />
+    <None Include="res\Business.rc2" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Business.h" />
+    <ClInclude Include="CompanyWebsite.h" />
+    <ClInclude Include="ComputingWarrant.h" />
+    <ClInclude Include="ExeDelegate.h" />
+    <ClInclude Include="Fund.h" />
+    <ClInclude Include="FundDeriveData.h" />
+    <ClInclude Include="Markup.h" />
+    <ClInclude Include="Memo.h" />
+    <ClInclude Include="MixTradeDay.h" />
+    <ClInclude Include="MyIndicator.h" />
+    <ClInclude Include="..\..\ModConfig\MyPmdlg.h" />
+    <ClInclude Include="..\..\ModConfig\MyStateDlg.h" />
+    <ClInclude Include="..\..\ModConfig\MyStyleDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SrvMemo.h" />
+    <ClInclude Include="StatRisk.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StockWarn.h" />
+    <ClInclude Include="TxAlarm.h" />
+    <ClInclude Include="TxBond.h" />
+    <ClInclude Include="TxBusiness.h" />
+    <ClInclude Include="TxCommonStock.h" />
+    <ClInclude Include="TxDelegate.h" />
+    <ClInclude Include="TxFutures.h" />
+    <ClInclude Include="TxIndex.h" />
+    <ClInclude Include="TxIndicator.h" />
+    <ClInclude Include="TxPreferredStock.h" />
+    <ClInclude Include="TxStock.h" />
+    <ClInclude Include="TxStock_HK.h" />
+    <ClInclude Include="TxWarrant.h" />
+    <ClInclude Include="Warn_Cfg.h" />
+    <ClInclude Include="NewStat\BigDealStatService.h" />
+    <ClInclude Include="NewStat\StatDataService.h" />
+    <ClInclude Include="NewStat\StatDataTransfer.h" />
+    <ClInclude Include="NewStat\StatReqAndRsp.h" />
+    <ClInclude Include="NewStat\StatXMLDataParser.h" />
+    <ClInclude Include="VarCalcService\BondPriceSeries.h" />
+    <ClInclude Include="VarCalcService\CurrencyFundPriceSeries.h" />
+    <ClInclude Include="VarCalcService\FileLoadPriceSeries.h" />
+    <ClInclude Include="VarCalcService\OPFundPriceSeries.h" />
+    <ClInclude Include="VarCalcService\PriceSeriesGenerator.h" />
+    <ClInclude Include="VarCalcService\StockPriceSeries.h" />
+    <ClInclude Include="VarCalcService\VarCalcConfig.h" />
+    <ClInclude Include="VarCalcService\VarCalcService.h" />
+    <ClInclude Include="VarCalcService\VarDataProvider.h" />
+    <ClInclude Include="VarCalcService\AdapterTools\VARDateTimeAdapter.h" />
+    <ClInclude Include="VarCalcService\AdapterTools\VARTypeChange.h" />
+    <ClInclude Include="VarCalcService\Test\functions.h" />
+    <ClInclude Include="VarCalcService\Test\TestLog.h" />
+    <ClInclude Include="VarCalcService\Test\VarCalcTestService.h" />
+    <ClInclude Include="VarCalcService\VarCalc\VarCalcDataSource.h" />
+    <ClInclude Include="VarCalcService\VarCalc\VarCalcGlobal.h" />
+    <ClInclude Include="VarCalcService\VarCalc\VarCalcMethod.h" />
+    <ClInclude Include="VarCalcService\VarCalc\VarCalcParam.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Business.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Control\Control.vcxproj">
+      <Project>{6cbcb94c-69d9-4acc-aa08-0703597ec503}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Core\Core.vcxproj">
+      <Project>{f074b7ec-b82e-4422-8a26-a5f3d5329adb}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Driver\Driver.vcxproj">
+      <Project>{59f80d5e-5a4c-422b-aa23-86bad370a07d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\TxMath\TxMath.vcxproj">
+      <Project>{5f166fde-d490-44a3-a76f-a69fb7463fef}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\ZkkLibrary\ZkkLib_Dll.vcxproj">
+      <Project>{e0652a43-bb2c-45f8-a2ab-903660310bc3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Data\Data.vcxproj">
+      <Project>{e1511267-33b3-4519-8018-7fbb0f73c553}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UI\FrameBase\FrameBase.vcxproj">
+      <Project>{53f92a1a-8147-46b9-b613-dab9bd771c29}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Business.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
